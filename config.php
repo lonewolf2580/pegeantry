@@ -19,12 +19,12 @@ define("DBNAME", "skyraikc_pgt");
 $link = mysqli_connect(HOST, USERNAME, PASSWORD, DBNAME);
 
 
-define("HOST", "localhost");
-define("USERNAME", "root");
-define("PASSWORD", "");
-define("DBNAME", "pgt");
+// define("HOST", "localhost");
+// define("USERNAME", "root");
+// define("PASSWORD", "");
+// define("DBNAME", "pgt");
 
-$link = mysqli_connect(HOST, USERNAME, PASSWORD, DBNAME);
+// $link = mysqli_connect(HOST, USERNAME, PASSWORD, DBNAME);
 
 session_start();
 
