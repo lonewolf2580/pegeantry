@@ -20,6 +20,12 @@ require 'header.php';
         ?>
         <!--Contestants section end-->
 
+        <!--About us start-->
+        <?php
+        require 'about-us.php';
+        ?>
+        <!--About us end-->
+
         <?php
         require 'footer.php';
         ?>

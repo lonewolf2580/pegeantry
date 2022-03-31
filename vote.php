@@ -34,7 +34,7 @@ if (isset($_GET['id'])) {
                             <p>Account Number: <?= $acc_number; ?></p>
                             <p>Account Name: <?= $bank_name; ?></p>
 
-                            <p>2. Send proof of Payment and Contestant ID () to <?= $phone_number; ?> or <?= $phone_number2; ?> via Whatsapp</p>
+                            <p>2. Send proof of Payment and Contestant ID (<?= $cont['c_id']; ?>) to <?= $phone_number; ?> or <?= $phone_number2; ?> via Whatsapp</p>
 
                             <h4><i>You will get a notification that your vote was successful...</i></h4>
                             

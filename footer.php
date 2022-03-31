@@ -6,35 +6,18 @@
                     <div class="col-md-12">
                         <div class="partner-list">
                             <div class="single-partner">
-                                <a href="#"><img src="images/logo/1.png" alt=""></a>
+                                <a href="#"><img src="images/1.jpg" style="height: 70px; width: 162px" alt=""></a>
                             </div>
                             <div class="single-partner">
-                                <a href="#"><img src="images/logo/1.png" alt=""></a>
+                                <a href="#"><img src="images/2.jpeg" style="height: 70px; width: 162px" alt=""></a>
                             </div>
                             <div class="single-partner">
-                                <a href="#"><img src="images/logo/1.png" alt=""></a>
+                                <a href="#"><img src="images/3.jpeg" style="height: 70px; width: 162px" alt=""></a>
                             </div>
                             <div class="single-partner">
-                                <a href="#"><img src="images/logo/1.png" alt=""></a>
+                                <a href="#"><img src="images/4.jpeg" style="height: 70px; width: 162px" alt=""></a>
                             </div>
-                            <div class="single-partner">
-                                <a href="#"><img src="images/logo/1.png" alt=""></a>
-                            </div>
-                            <div class="single-partner">
-                                <a href="#"><img src="images/logo/1.png" alt=""></a>
-                            </div>
-                            <div class="single-partner">
-                                <a href="#"><img src="images/logo/1.png" alt=""></a>
-                            </div>
-                            <div class="single-partner">
-                                <a href="#"><img src="images/logo/1.png" alt=""></a>
-                            </div>
-                            <div class="single-partner">
-                                <a href="#"><img src="images/logo/1.png" alt=""></a>
-                            </div>
-                            <div class="single-partner">
-                                <a href="#"><img src="images/logo/1.png" alt=""></a>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -70,11 +53,11 @@
     <div class="style-customizer closed">
 
       <div class="buy-button">
-            <a href="#" class="customizer-logo"><img src="images/logo/logo.png" alt="Theme Logo"></a>
+            <a href="#" class="customizer-logo"><img src="images/blue-ribbon.png" alt="Theme Logo"></a>
             <a class="opener" href="#"><i class="fa fa-cog fa-spin"></i></a>
-            <div class="buy-now">
+            <!-- <div class="buy-now">
                 <a class="button button-border" href="#">Buy now!</a> 
-            </div>
+            </div> -->
         </div>
       <div class="clearfix content-chooser">
         <h3>Layout Options</h3>

@@ -11,20 +11,20 @@ $email_address = "support@bluerib.kewitas.com";
 $acc_number = "1234567890";
 $bank_name = "Null";
 
-define("HOST", "localhost");
-define("USERNAME", "skyraikc_lincom");
-define("PASSWORD", "1Lone2wolf@");
-define("DBNAME", "skyraikc_pgt");
-
-$link = mysqli_connect(HOST, USERNAME, PASSWORD, DBNAME);
-
-
 // define("HOST", "localhost");
-// define("USERNAME", "root");
-// define("PASSWORD", "");
-// define("DBNAME", "pgt");
+// define("USERNAME", "skyraikc_lincom");
+// define("PASSWORD", "1Lone2wolf@");
+// define("DBNAME", "skyraikc_pgt");
 
 // $link = mysqli_connect(HOST, USERNAME, PASSWORD, DBNAME);
+
+
+define("HOST", "localhost");
+define("USERNAME", "root");
+define("PASSWORD", "");
+define("DBNAME", "pgt");
+
+$link = mysqli_connect(HOST, USERNAME, PASSWORD, DBNAME);
 
 session_start();
 

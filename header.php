@@ -65,7 +65,7 @@ require 'config.php';
                         <div class="row">
                             <div class="col-lg-2 col-md-6 col-sm-9 xs-3">
                                 <div class="logo">
-                                    <a href="index.html"><img src="images/logo/logo.png" alt=""></a>
+                                    <a href="index"><img src="images/blue-ribbon.png" alt=""></a>
                                 </div>
                             </div>
                             <div class="col-lg-8 d-none d-lg-block">
@@ -79,11 +79,9 @@ require 'config.php';
                                                 <a href="index#contestants">Contestants</a>
                                             </li>
                                             <li>
-                                                <a href="about-us.html">about</a>
+                                                <a href="#about-us">about</a>
                                             </li>
-                                            <li>
-                                                <a href="contact-us.html">contact</a>
-                                            </li>
+                                            
                                         </ul>
                                     </nav>
                                 </div>
@@ -104,11 +102,9 @@ require 'config.php';
                                         <a href="#contestants">Contestants</a>
                                     </li>
                                     <li>
-                                        <a href="about-us.html">about</a>
+                                        <a href="#about-us">about</a>
                                     </li>
-                                    <li>
-                                        <a href="contact-us.html">contact</a>
-                                    </li>
+                                    
                                 </ul>
                             </nav>
                         </div>
