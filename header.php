@@ -79,7 +79,7 @@ require 'config.php';
                                                 <a href="index#contestants">Contestants</a>
                                             </li>
                                             <li>
-                                                <a href="#about-us">about</a>
+                                                <a href="index#about-us">about</a>
                                             </li>
                                             
                                         </ul>
@@ -96,13 +96,13 @@ require 'config.php';
                             <nav id="dropdown">
                                 <ul>
                                     <li>
-                                        <a href="#top">Home</a>
+                                        <a href="index#top">Home</a>
                                     </li>
                                     <li>
-                                        <a href="#contestants">Contestants</a>
+                                        <a href="index#contestants">Contestants</a>
                                     </li>
                                     <li>
-                                        <a href="#about-us">about</a>
+                                        <a href="index#about-us">about</a>
                                     </li>
                                     
                                 </ul>
