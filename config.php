@@ -3,13 +3,14 @@ $site_name = "Blue Ribbon";
 $contest_title = "Blue Ribbon Contest";
 $contest_reward = "iPhone 13";
 $site_url = "https://bluerib.kewitas.com";
-$phone_number = "+2345678901234";
-$phone_number2 = "+2345678901235";
+$phone_number = "+2347036952408";
+$phone_number2 = "+2347017286923";
 $email_address = "support@bluerib.kewitas.com";
 
 // Bank Data
-$acc_number = "1234567890";
-$bank_name = "Null";
+$acc_number = "1025026325";
+$bank_name = "UBA";
+$acc_name = "Blue Ribbon";
 
 define("HOST", "localhost");
 define("USERNAME", "skyraikc_lincom");

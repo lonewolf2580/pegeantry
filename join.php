@@ -1,5 +1,6 @@
 <?php
 require 'header.php';
+require 'email_file/mail-function.php';
 ?>
         <!--header section end-->
 
@@ -17,7 +18,7 @@ require 'header.php';
                 <div class="row">
                     <div class="col-md-6 col-sm-12 col-xs-12 order-md-2">
                         <div class="contact-form-img text-center">
-                            <img src="images/common/contact.jpg" alt="">
+                            <img src="images/flier.png" alt="">
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-12 col-xs-12 order-md-1">
@@ -26,7 +27,23 @@ require 'header.php';
                             if (isset($_POST['submit']) && isset($_FILES['picture'])) {
                                 $join_contest = join_contest($_POST, $_FILES['picture']);
                                 if ($join_contest === true) {
-                                    echo "<script>swal('Successfully Joined', 'Check your email for more Information', 'success');</script>";
+                                    $to = $_POST['email'];
+                                    $name = $_POST['name'];
+                                    $state = $_POST['state'];
+                                    $subject = "Participation Confirmation";
+                                    $body = "<h3>Contestant Details</h3>";
+                                    $body .= "<h4>Name: $name</h4>";
+                                    $body .= "<h4>Email: $to</h4>";
+                                    $body .= "<h4>State: $state</h4>";
+                                    $body .= "<h4>Wish you Lucks!</h4>";
+
+                                    $sendmail = send_mail($to, $name, $subject, $body);
+                                    if ($sendmail) {
+                                        echo "<script>swal('Successfully Joined', 'Check your email for more Information', 'success');</script>";
+                                    }else {
+                                        echo "<script>swal('Successfully Joined', 'Check your email for more Information', 'success');</script>";
+                                    }
+                                    
                                 }else {
                                     $errors = $join_contest;
                                     echo "<script>swal('Failed', 'Try Again', 'warning');</script>";

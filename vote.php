@@ -32,7 +32,8 @@ if (isset($_GET['id'])) {
                             <h5 class="overview">How To Vote: (NGN100 per Vote)</h5>
                             <p>1. Send an amount equivalent to the number of votes you want to cast to:</p>
                             <p>Account Number: <?= $acc_number; ?></p>
-                            <p>Account Name: <?= $bank_name; ?></p>
+                            <p>Bank Name: <?= $bank_name; ?></p>
+                            <p>Account Name: <?= $acc_name; ?></p>
 
                             <p>2. Send proof of Payment and Contestant ID (<?= $cont['c_id']; ?>) to <?= $phone_number; ?> or <?= $phone_number2; ?> via Whatsapp</p>
 

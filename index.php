@@ -10,7 +10,7 @@ require 'header.php';
         
         <!--Gallery section start-->
         <?php
-        require 'gallery.php';
+        // require 'gallery.php';
         ?>
         <!--Gallery section end-->
         
