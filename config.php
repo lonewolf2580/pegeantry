@@ -1,7 +1,8 @@
 <?php
 $site_name = "Blue Ribbon";
-$contest_title = "Blue Ribbon Contest";
-$contest_reward = "iPhone 13";
+$contest_title = "May Queen Contest";
+$contest_reward = "NGN1,000,000";
+$reg_fee = "NGN5,000";
 $site_url = "https://bluerib.kewitas.com";
 $phone_number = "+2347036952408";
 $phone_number2 = "+2347017286923";

@@ -35,9 +35,9 @@ if ($total_dep !== false) {
                                         </div>
                                     </div>
                                 </div>
-                                <a href="dashboard">
+                                <a href="../a1b2c3" target="_blank">
                                     <div class="panel-footer">
-                                        <span class="pull-left">View Details</span>
+                                        <span class="pull-left">Add Contestant</span>
                                         <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
 
                                         <div class="clearfix"></div>

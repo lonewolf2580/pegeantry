@@ -25,7 +25,7 @@
 			        <div class="slider-text-tablecell">
 						<div class="middle-text">
                             <div class="title-1 wow rotateInDownRight" data-wow-duration="0.9s" data-wow-delay="0s">
-                                <h1 style="color: #fff;">Win a Brand new <?= $contest_reward; ?></h1>
+                                <h1 style="color: #fff;">Win <?= $contest_reward; ?></h1>
                             </div>	
                             <div class="desc wow slideInRight" data-wow-duration="1.2s" data-wow-delay="0.2s">
                                 <p style="color: #fff;">With our Monthly Contests, you stand a chance to win Amazing Gifts or Cash Rewards.</p>
